@@ -1,3 +1,4 @@
+'''
 use AdventureWorks2019
 
 --question 11 Udemy basic
@@ -13,3 +14,4 @@ select count (*) from person.Person where PersonType='SP'
 Select count(a.businessentityid), a.JobTitle as employee_count from HumanResources.Employee a
 inner join Person.Person b on a.BusinessEntityID=b.BusinessEntityID
 where b.PersonType='SP' group by a.JobTitle
+'''
