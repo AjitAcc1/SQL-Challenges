@@ -1,6 +1,6 @@
 use AdventureWorks2019
 
---question 11 Udemy
+--question 11 Udemy basic
 
 select * from HumanResources.Employee
 
