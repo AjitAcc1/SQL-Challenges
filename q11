@@ -1,10 +1,9 @@
-'''
+
 use AdventureWorks2019
 
 --question 11 Udemy basic
 
 select * from HumanResources.Employee
-
 Select count(businessentityid) as employee_count from HumanResources.Employee
 
 Select count(businessentityid) as employee_count from HumanResources.Employee where CurrentFlag=1
